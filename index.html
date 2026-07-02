@@ -13,7 +13,7 @@
     <p class="text-xs text-slate-400 mb-6">Your message will be sent securely in the background.</p>
 
     <!-- Netlify form setup with a spam honeypot named "bot-field" -->
-    <form name="contact-form" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/success.html" class="space-y-4">
+    <form name="contact-form" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="space-y-4">
       <input type="hidden" name="form-name" value="contact-form" />
       
       <!-- Hidden honeypot field. If a bot fills this, Netlify drops the submission. -->
